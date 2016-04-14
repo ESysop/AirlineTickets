@@ -13,6 +13,8 @@ namespace AirlineTickets
 			{
 			TicketDesk ticketDesk = new TicketDesk();
 			ticketDesk.addFlights();
+			ticketDesk.printFlightList();
+
 			Console.ReadLine();
 			}
 		
